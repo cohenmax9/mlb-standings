@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.league {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.division {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.stripedRow:nth-child(2n) {
+  background-color: #eee;
+}
